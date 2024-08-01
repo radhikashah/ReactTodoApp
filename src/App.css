@@ -1,0 +1,23 @@
+.todo-pagination .absolute {
+  width: 100%;
+  bottom: 0;
+}
+.todo-pagination {
+  padding: 12px 0;
+  background: rgb(240 253 250);
+  width: 100%;
+}
+.App {
+  height: 90vh;
+}
+.item-list {
+  min-height: 290px;
+}
+.active button {
+  background-color: rgb(4 120 87 / var(--tw-text-opacity));
+  color: #fff;
+  border-color: #fff;
+}
+button:disabled {
+  opacity: 0.4;
+}
